@@ -12,7 +12,7 @@ console.log(a);
 let b = new User("Alexandr", "Petrov", 18, "Saint-Petersburg");
 console.log(b);
 
-function result() {
+User.prototype.result = function () {
     console.log(this.firstName, this.secondName, this.age, this.city);
 };
 a.info = result;
