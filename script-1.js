@@ -12,14 +12,14 @@ console.log(arrUnique);
   
 let arr = [1, 2, 3, 4, 4, 5, 2, 9, 4];
 
-let arr1 = [];
-arr1 = arr.reduce(function unique(a, b) {
+let arr2 = [];
+arr2 = arr.reduce(function unique(a, b) {
 
-   if (!arr1.includes(b)) {
-      arr1.push(b);
+   if (!arr2.includes(b)) {
+      arr2.push(b);
    }
    
-   return arr1;
+   return arr2;
 }, []);
 
-console.log(arr1);
+console.log(arr2);
