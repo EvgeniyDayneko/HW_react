@@ -1,7 +1,7 @@
 "use strict"
 
 let user = { 
-    name: "Ivan", 
+    name: "Stepan", 
     years: 19, 
     car: "Subaru", 
     telePhone: "iPhone", 
